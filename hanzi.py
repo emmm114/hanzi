@@ -75,7 +75,3 @@ ax[6].axis('off')
 
 plt.tight_layout()
 plt.show()
-
-
-# 保存灰度图像（如果需要）
-cv.imwrite('gray_image.jpg', img_copy)
